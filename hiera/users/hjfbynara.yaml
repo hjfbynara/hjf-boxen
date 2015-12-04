@@ -1,0 +1,156 @@
+# fish::chsh: false
+dockutil::version: 2.0.2
+rubygems:
+    'activesupport for all rubies':
+        gem: 'activesupport'
+        version: '4.0.4'
+        ruby_version: '*'
+    'travis for ruby 1.9.3':
+        gem : 'travis'
+        version: '1.8.0'
+        ruby_version: '1.9.3'
+    'travis for ruby 2.0.0':
+        gem : 'travis'
+        version: '1.8.0'
+        ruby_version: '2.0.0'
+    'hiera-eyaml for ruby 1.9.3':
+        gem : 'hiera-eyaml'
+        version: '2.0.8'
+        ruby_version: '1.9.3'
+    'hiera-eyaml for ruby 2.0.0':
+        gem : 'hiera-eyaml'
+        version: '2.0.8'
+        ruby_version: '2.0.0'
+# dnsmasq::host: 192.168.99.100
+# dnsmasq::tld: local.broadinstitute.org
+dockitems:
+    'Remove Calendar':
+        item: "/Applications/Calendar.app"
+        label: "Calendar"
+        action: "remove"
+    'Remove Contacts':
+        item: "/Applications/Contacts.app"
+        label: "Contacts"
+        action: "remove"
+    'Remove Evernote':
+        item: "/Applications/Evernote.app"
+        label: "Evernote"
+        action: "remove"
+    'Remove FaceTime':
+        item: "/Applications/FaceTime.app"
+        label: "FaceTime"
+        action: "remove"
+    'Remove iBooks':
+        item: "/Applications/iBooks.app"
+        label: "iBooks"
+        action: "remove"
+#    'Remove iTunes':
+#        item: "/Applications/iTunes.app"
+#        label: "iTunes"
+#        action: "remove"
+    'Remove Mail':
+        item: "/Applications/Mail.app"
+        label: "Mail"
+        action: "remove"
+    'Remove Maps':
+        item: "/Applications/Maps.app"
+        label: "Maps"
+        action: "remove"
+    'Remove Messages':
+        item: "/Applications/Messages.app"
+        label: "Messages"
+        action: "remove"
+    'Remove Microsoft Document Connection':
+        item: "/Applications/Microsoft Office 2011/Microsoft Document Connection.app"
+        label: "Microsoft Document Connection"
+        action: "remove"
+#    'Remove Notes':
+#        item: "/Applications/Notes.app"
+#        label: "Notes"
+#        action: "remove"
+    'Remove Photos':
+        item: "/Applications/Photos.app"
+        label: "Photos"
+        action: "remove"
+    'Remove Reminders':
+        item: "/Applications/Reminders.app"
+        label: "Reminders"
+        action: "remove"
+    'Remove Remote Desktop Connection':
+        item: "/Applications/Remote Desktop Connection.app"
+        label: "Remote Desktop Connection"
+        action: "remove"
+    'Remove Self Service':
+        item: "/Applications/Self Service.app"
+        label: "Self Service"
+        action: "remove"
+    'Add Launchpad':
+        item: "/Applications/Launchpad.app"
+        label: "Launchpad"
+        action: "add"
+        position: 1
+    'Add Mission Control':
+        item: "/Applications/Mission Control.app"
+        label: "Mission Control"
+        action: "add"
+        position: 2
+    'Add App Store':
+        item: "/Applications/App Store.app"
+        label: "App Store"
+        action: "add"
+        position: 3
+    'Add Chrome App Launcher':
+        item: "/Users/teixeira/Applications/Chrome Apps.localized/app_list.app"
+        label: "Chrome App Launcher"
+        action: "add"
+        position: 4
+    'Add Safari':
+        item: "/Applications/Safari.app"
+        label: "Safari"
+        action: "add"
+        position: 5
+    'Add Firefox':
+        item: "/Applications/Firefox.app"
+        label: "Firefox"
+        action: "add"
+        position: 6
+    'Add Chrome':
+        item: "/Applications/Google Chrome.app"
+        label: "Google Chrome"
+        action: "add"
+        position: 7
+    'Add HipChat':
+        item: "/Applications/HipChat.app"
+        label: "HipChat"
+        action: "add"
+        position: 8
+    'Add Slack':
+        item: "/Applications/Slack.app"
+        label: "Slack"
+        action: "add"
+        position: 9
+    'Add Terminal':
+        item: "/Applications/Utilities/Terminal.app"
+        label: "Terminal"
+        action: "add"
+        position: 10
+    'Add Sublime Text':
+        item: "/Applications/Sublime Text 2.app"
+        label: "Sublime Text 2"
+        action: "add"
+        position: 11
+    'Add CoRD':
+        item: "/Applications/CoRD.app"
+        label: "CoRD"
+        action: "add"
+        position: 12
+    'Add Sequel Pro':
+        item: "/Applications/Sequel Pro.app"
+        label: "Sequel Pro"
+        action: "add"
+        position: 13
+    'Add System Preferences':
+        item: "/Applications/System Preferences.app"
+        label: "System Preferences"
+        action: "add"
+        position: 14
