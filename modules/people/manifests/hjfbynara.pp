@@ -7,7 +7,7 @@ class people::hjfbynara {
     include dockutil
     include dropbox
     include firefox
-#    include fish
+    include fish
 #    include fitbit
     include googledrive
     include hipchat
