@@ -1,4 +1,4 @@
-# fish::chsh: false
+fish::chsh: false
 dockutil::version: 2.0.2
 rubygems:
     'activesupport for all rubies':
@@ -99,11 +99,11 @@ dockitems:
         label: "App Store"
         action: "add"
         position: 3
-    'Add Chrome App Launcher':
-        item: "/Users/teixeira/Applications/Chrome Apps.localized/app_list.app"
-        label: "Chrome App Launcher"
-        action: "add"
-        position: 4
+#    'Add Chrome App Launcher':
+#        item: "/Users/teixeira/Applications/Chrome Apps.localized/app_list.app"
+#        label: "Chrome App Launcher"
+#        action: "add"
+#        position: 4
     'Add Safari':
         item: "/Applications/Safari.app"
         label: "Safari"
