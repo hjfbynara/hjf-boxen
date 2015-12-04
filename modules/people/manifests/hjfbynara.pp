@@ -1,4 +1,4 @@
-class people::coreone {
+class people::hjfbynara {
     include brewcask
     include chrome
     include cord
