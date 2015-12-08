@@ -55,6 +55,7 @@ class people::hjfbynara {
         'cowsay',
         'docker',
         'docker-machine',
+        'boot2docker',
         'figlet',
         'graphviz',
         'netcat',
