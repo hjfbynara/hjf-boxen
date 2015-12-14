@@ -19,7 +19,6 @@ class people::hjfbynara {
 #    include spotify
     include sublime_text::v2
     include vagrant
-    include virtualbox
     include wget
 
     $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
