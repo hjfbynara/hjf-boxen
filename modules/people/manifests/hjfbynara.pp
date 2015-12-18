@@ -13,13 +13,15 @@ class people::hjfbynara {
     include hipchat
 #    include jumpcut
 #    include pivotalbooster
-#    include robomongo
+    include robomongo
     include sequel_pro
 #    include shiftit
 #    include spotify
     include sublime_text::v2
     include vagrant
     include wget
+    include onepassword
+    include onepassword::chrome
 
     $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
     $structure = [ "${sublimeConfDir}", "${sublimeConfDir}/Packages" ]
