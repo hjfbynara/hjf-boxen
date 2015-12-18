@@ -13,7 +13,7 @@ class people::hjfbynara {
     include hipchat
 #    include jumpcut
 #    include pivotalbooster
-    include robomongo
+#    include robomongo
     include sequel_pro
 #    include shiftit
 #    include spotify
