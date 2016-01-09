@@ -25,7 +25,7 @@ class people::hjfbynara {
     include libreoffice
     include libreoffice::languagepack
 
-    libreoffice::languagepack {
+    class { 'libreoffice::languagepack':
       locale => 'en-US'
     }
 
