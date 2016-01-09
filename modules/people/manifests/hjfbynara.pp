@@ -23,15 +23,15 @@ class people::hjfbynara {
     include onepassword
     include onepassword::chrome
 
-    include libreoffice
-#    class { 'libreoffice':
-#     version => '5.0.4',
-#    }
+#    include libreoffice
+    class { 'libreoffice':
+     version => '5.0.4',
+    }
 
 #    include libreoffice::languagepack
-#    class { 'libreoffice::languagepack':
-#      locale => 'en-US'
-#    }
+    class { 'libreoffice::languagepack':
+      locale => 'en-US'
+    }
 
 
     $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
