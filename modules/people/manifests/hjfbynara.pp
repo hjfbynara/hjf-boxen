@@ -29,9 +29,9 @@ class people::hjfbynara {
     }
 
 #    include libreoffice::languagepack
-    class { 'libreoffice::languagepack':
-      locale => 'en-US'
-    }
+#    class { 'libreoffice::languagepack':
+#      locale => 'en-US',
+#    }
 
 
     $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
