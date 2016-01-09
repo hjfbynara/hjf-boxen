@@ -24,12 +24,11 @@ class people::hjfbynara {
     include onepassword::chrome
 
     include libreoffice
-    class { 'libreoffice':
-     version => '5.0.4',
-    }
+#    class { 'libreoffice':
+#     version => '5.0.4',
+#    }
 
 #    include libreoffice::languagepack
-
 #    class { 'libreoffice::languagepack':
 #      locale => 'en-US'
 #    }
