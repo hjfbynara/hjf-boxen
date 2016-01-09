@@ -22,6 +22,13 @@ class people::hjfbynara {
     include wget
     include onepassword
     include onepassword::chrome
+    include libreoffice
+    include libreoffice::languagepack
+
+    libreoffice::languagepack {
+      locale => 'en-US'
+    }
+
 
     $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
     $structure = [ "${sublimeConfDir}", "${sublimeConfDir}/Packages" ]
