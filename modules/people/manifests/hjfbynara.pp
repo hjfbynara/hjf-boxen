@@ -71,6 +71,7 @@ class people::hjfbynara {
         'figlet',
         'graphviz',
         'netcat',
+        'gnuplot',
         'vault'
     ]:
     }
