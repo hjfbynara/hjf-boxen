@@ -11,6 +11,7 @@ class people::hjfbynara {
 #    include fitbit
     include googledrive
     include hipchat
+    include iterm2::stable
 #    include jumpcut
 #    include pivotalbooster
 #    include robomongo
@@ -70,8 +71,8 @@ class people::hjfbynara {
         'docker-machine',
         'figlet',
         'graphviz',
-        'netcat',
         'gnuplot',
+        'netcat',
         'vault'
     ]:
     }
