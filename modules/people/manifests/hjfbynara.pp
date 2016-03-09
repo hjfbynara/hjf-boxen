@@ -71,7 +71,7 @@ class people::hjfbynara {
         'docker-machine',
         'figlet',
         'graphviz',
-        'gnuplot',
+        'gnuplot --with-x11',
         'netcat',
         'vault'
     ]:
