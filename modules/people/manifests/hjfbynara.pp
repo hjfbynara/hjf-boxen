@@ -73,6 +73,7 @@ class people::hjfbynara {
         'graphviz',
         'gnuplot',
         'netcat',
+        'socat',
         'vault'
     ]:
     }
