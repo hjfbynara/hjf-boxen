@@ -74,6 +74,7 @@ class people::hjfbynara {
         'gnuplot',
         'netcat',
         'socat',
+        'jq',
         'vault'
     ]:
     }
