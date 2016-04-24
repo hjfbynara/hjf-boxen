@@ -23,7 +23,7 @@ class people::hjfbynara {
     include wget
     include onepassword
     include onepassword::chrome
-    include eclipse::java
+    include google_app_engine::python
 
 #    include libreoffice
 #    class { 'libreoffice':
