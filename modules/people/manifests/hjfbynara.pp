@@ -85,6 +85,7 @@ class people::hjfbynara {
 #        'tinkertool',
         'google-cloud-sdk',
         'java',
+        'intellij-idea',
 #        'seashore',
     ]:
         provider => 'brewcask',
